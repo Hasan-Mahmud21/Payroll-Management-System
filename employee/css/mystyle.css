@@ -1,0 +1,194 @@
+/* Element Selector */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  /* margin: 0; */
+  padding: 20px;
+}
+
+/* ID Selector */
+#print {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2c239e;
+  text-align: center;
+  margin-top: .20px;
+}
+
+
+/* ID Selector */
+#printt {
+  font-size: 26px;
+  font-weight: bold;
+  color: #2c239e;
+  text-align:  left;
+  margin-top: 10px;
+}
+
+
+/* Class Selector */
+.input-field {
+  width: 100%;
+  padding: 5px;
+  margin: 5px 0;
+  border: 1px solid #3c3a3a;
+  border-radius: 2px;
+}
+
+/* Universal Selector */
+* {
+  box-sizing: border-box;
+}
+
+/* Group Selector */
+h3, legend {
+  color: #007BFF;
+  margin-bottom: 1px;
+}
+
+/* Form Styling */
+form {
+  background-color: #e3edf5;
+  padding: 20px;
+  border: 1px solid #0b0b0b;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Fieldset Styling */
+fieldset {
+  margin-bottom: 20px;
+  border: 1px solid #5c5959;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Button Styling */
+button {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #2ba9f2;
+}
+
+a {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #007BFF;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Button Link Styling */
+.button-link {
+  display: inline-block;
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 16px;
+  margin-top: 10px;
+
+}
+
+.button-link:hover {
+  background-color: #2ba9f2;
+  text-decoration: none;
+}
+
+/* Button Link Styling */
+.button-update {
+  display: inline-block;
+  background-color: #1589ee;
+  color: white;
+  padding: 8px 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-top: 10px;
+
+}
+
+.button-update:hover {
+  background-color: #ee3942;
+  text-decoration: none;
+}
+
+/* Button Link Styling */
+.button-delete {
+  display: inline-block;
+  background-color: #29a155;
+  color: white;
+  padding: 8px 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-top: 10px;
+
+}
+
+.button-delete:hover {
+  background-color: #f1394e;
+  text-decoration: none;
+}
+/* Button Link Styling */
+.button-logout {
+  display: inline-block;
+  background-color: #f2194c;
+  color: white;
+  padding: 8px 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 16px;
+  margin: 0px;
+
+}
+
+.button-logout:hover {
+  background-color: #f67685;
+  text-decoration: none;
+}
+
+
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+#searchBar {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+#searchButton {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#searchButton:hover {
+  background-color: #0056b3;
+}
