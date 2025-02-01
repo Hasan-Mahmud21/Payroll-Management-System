@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+    background: linear-gradient(135deg, #89f7fe, #66a6ff);
+}
+
+.form-container {
+    width: 400px;
+    height: auto;
+    padding: 50px 40px;
+    border-radius: 30px;
+    background: #ecf0f3;
+    box-shadow: 10px 10px 20px #919176, -10px -10px 20px #777676;
+    position: relative;
+}
+
+h1.textlogin {
+    text-align: center;
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background: #ccc;
+    margin-bottom: 20px;
+}
+
+.logo {
+    background: url("images.png") no-repeat center;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+table {
+    width: 100%;
+}
+
+.textuser {
+    font-size: 16px;
+    color: #333;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 15px 10px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 5px #cbced1, inset -2px -2px 5px #ffffff;
+    font-size: 16px;
+    color: #555;
+    transition: 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    box-shadow: 0px 0px 5px #24cfaa;
+    background: #fff;
+}
+
+button {
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    background: #24cfaa;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px #b1b1b1, -3px -3px 5px #ffffff;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    background: #1da88a;
+}
+
+a {
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #2a54e9;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+a:hover {
+    color: #1da88a;
+    text-decoration: underline;
+}

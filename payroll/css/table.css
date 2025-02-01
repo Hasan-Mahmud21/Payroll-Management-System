@@ -1,0 +1,112 @@
+/* Container Styling */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+/* Search Bar Styling */
+.search-bar {
+    margin-bottom: 20px;
+}
+
+#searchBar {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#searchButton {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#searchButton:hover {
+    background-color: #0056b3;
+}
+
+/* Add User Button Styling */
+.add-user a {
+    text-decoration: none;
+    color: white;
+}
+
+.add-user {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.add-user:hover {
+    background-color: #218838;
+}
+
+/* .edit-user, .delete-user, .change-password {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.edit-user:hover {
+    background-color: #0056b3;
+}
+
+.delete-user {
+    background-color: #dc3545;
+}
+
+.delete-user:hover {
+    background-color: #c82333;
+}
+
+.change-password {
+    background-color: #fd7e14;
+}
+
+.change-password:hover {
+    background-color: #e66b0e;
+} */
+
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
