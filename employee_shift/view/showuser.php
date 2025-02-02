@@ -7,12 +7,12 @@ include '../control/showuser_control.php';
 <link rel="stylesheet" href="../css/showuser.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Show User Payroll</title>
+    <title>Employee Shift</title>
     
 </head>
 <body>
     <header class="page-heading">
-        <h1>User Payroll Information</h1>
+        <h1>Employee Shift Information</h1>
     </header>
 
     <a href="../control/session_logout.php">Logout</a>
